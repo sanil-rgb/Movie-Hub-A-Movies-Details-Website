@@ -4,7 +4,13 @@
  import SearchIcon from './search.svg'
  const API = ' http://www.omdbapi.com?&apikey=4dcfa833'
  
-
+ const movie1 = {
+    "Title": "Superman",
+    "Year": "1978",
+    "imdbID": "tt0078346",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMzA0YWMwMTUtMTVhNC00NjRkLWE2ZTgtOWEzNjJhYzNiMTlkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg"
+}
  
  
  function App (){
@@ -18,11 +24,12 @@
 
 
     }
-    useEffect(() => {searchMovie('');
+    useEffect(() => {searchMovie('superman');
     },[]);
 
 
-   
+
+
 
      return(
         <div className="app">
@@ -42,8 +49,8 @@
             movies?.length> 0 
             ? (
                 <div className="container">
-                {
-                         movies.map(movie =>( <MovieCard movie1={movie}/>))
+                { movies.map(movie =>( <MovieCard movie1={movie}/>
+                ))
 
                 }
                

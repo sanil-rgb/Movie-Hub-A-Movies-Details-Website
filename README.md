@@ -1,2 +1,8 @@
-# Movie-Hub-A-Movies-Details-Website
-**Description (Under 300 Characters):**  A Movie List Website built using React.js, JavaScript, HTML, and CSS that displays movie posters, release years, and details in one place. It uses external movie APIs to provide a simple, user-friendly platform for exploring movies efficiently.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
